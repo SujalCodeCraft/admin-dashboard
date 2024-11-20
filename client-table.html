@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title  -->
+    <title>Admin Dashboard </title>
+    <!-- main css file  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+
+<body>
+    <!-- header start  -->
+
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-navbar">
+                <div class="nav-leftside">
+                    <img src="assets/images/image 4.png" class="img-fluid" alt="coin-w-logo">
+                </div>
+                <div class="nav-rightside">
+                    <ul>
+                        <li><svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.23389 20.3636C7.23389 20.3636 7.23389 24 11.9816 24C16.7293 24 16.7293 20.3636 16.7293 20.3636"
+                                    stroke="#7B7878" stroke-width="2" stroke-linejoin="round" />
+                                <path
+                                    d="M4.11124 7.88631L1.61936 17.8798C1.30468 19.1418 2.2593 20.3637 3.55994 20.3637H7.23377H16.5844H20.2582C21.5589 20.3637 22.5135 19.1418 22.1988 17.8798L19.7069 7.88631C19.7032 7.87122 19.6997 7.85789 19.6953 7.84297C19.5856 7.46996 17.923 2.18185 11.9091 2.18185C5.89518 2.18185 4.23263 7.46996 4.12283 7.84297C4.11844 7.85789 4.115 7.87122 4.11124 7.88631Z"
+                                    stroke="#7B7878" stroke-width="2" stroke-linejoin="round" />
+                                <ellipse cx="19.5452" cy="3.27273" rx="3.27273" ry="3.27273" fill="#202852" />
+                            </svg>
+                        </li>
+                        <li>
+                            <svg width="30" height="30" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="20" fill="#8AA2BA" />
+                                <g clip-path="url(#clip0_120_43)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M16 15C16 13.9391 16.4214 12.9217 17.1716 12.1716C17.9217 11.4214 18.9391 11 20 11C21.0609 11 22.0783 11.4214 22.8284 12.1716C23.5786 12.9217 24 13.9391 24 15C24 16.0609 23.5786 17.0783 22.8284 17.8284C22.0783 18.5786 21.0609 19 20 19C18.9391 19 17.9217 18.5786 17.1716 17.8284C16.4214 17.0783 16 16.0609 16 15ZM16 21C14.6739 21 13.4021 21.5268 12.4645 22.4645C11.5268 23.4021 11 24.6739 11 26C11 26.7956 11.3161 27.5587 11.8787 28.1213C12.4413 28.6839 13.2044 29 14 29H26C26.7956 29 27.5587 28.6839 28.1213 28.1213C28.6839 27.5587 29 26.7956 29 26C29 24.6739 28.4732 23.4021 27.5355 22.4645C26.5979 21.5268 25.3261 21 24 21H16Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_120_43">
+                                        <rect width="18" height="18" fill="white" transform="translate(11 11)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </li>
+                        <li>
+                            <select name="nav-dropdown" id="#nav-dropdown">
+                                <option value="">Lorem</option>
+                                <option value="">Lorem</option>
+                                <option value="">Lorem</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Sub header  -->
+        <div class="sub-header">
+            <div class="container">
+                <div class="sub-tabs">
+                    <ul class="sub-tabs-ul">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Customer</a></li>
+                        <li><a href="#">Transactions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    
+
+    <!-- header end  -->
+
+
+    <section class="purchase-order-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="purchase-order-header">
+                        <div class="purchase-header-sub-1">
+                            <h5>Client</h5>
+                        </div>
+                        <div class="purchase-order-sub-2">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"> <span><img src="assets/images/solar_star-bold.png"
+                                        class="img-fluid" alt="calender-img "></span>Add Client</button>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade client-add-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true" >
+                            <div class="modal-dialog ">
+                                <div class="modal-content client-add-modal-1">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Add Client </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body client-add-modal-body">
+                                        <div class="client-add-modal-form"> 
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-form-input-box">
+                                                        <label for="reseller-id">Reseller id</label>
+                                                        <input type="text" id="reseller-id" placeholder="0000000">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="modal-form-input-box">
+                                                        <label for="client-name ">Name </label>
+                                                        <input type="text" id="client-name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="modal-form-input-box">
+                                                        <label for="client-contact">Phone Number </label>
+                                                        <input type="text"  id="client-contact" >
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="modal-form-input-box">
+                                                        <label for="client-email">Email Address </label>
+                                                        <input type="email" id="client-email" placeholder="Email.com ">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="modal-form-input-box">
+                                                        <label for="client-countary">Country</label>
+                                                        <input type="text" id="client-countary">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        
+                                        <button type="button" class="btn ">Add</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="purchase-order-table">
+                        <table class="table-borderless table-responsive">
+                            <thead>
+                                <tr>
+                                    <th># </th>
+                                    <th> Client id </th>
+                                    <th> Client id </th>
+                                    <th> Email </th>
+                                    <th> Buisness Phone </th>
+                                    <th>Status </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td> C-0062 </td>
+                                    <td> C-0062 </td>
+                                    <td> abdul@pradeep.tv </td>
+                                    <td>+971 54791 3020 </td>
+                                    <td class="status__td">
+                                        <div class="status__ status__completed ">
+                                            Active
+                                        </div>
+                                    </td>
+                                    <td> <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17 18C15.89 18 15 18.89 15 20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 15.5304 5.21071 16.0391 5.58579 16.4142C5.96086 16.7893 6.46957 17 7 17H19V15H7.42C7.3537 15 7.29011 14.9737 7.24322 14.9268C7.19634 14.8799 7.17 14.8163 7.17 14.75C7.17 14.7 7.18 14.66 7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.58 17.3 11.97L20.88 5.5C20.95 5.34 21 5.17 21 5C21 4.73478 20.8946 4.48043 20.7071 4.29289C20.5196 4.10536 20.2652 4 20 4H5.21L4.27 2M7 18C5.89 18 5 18.89 5 20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22C7.53043 22 8.03914 21.7893 8.41421 21.4142C8.78929 21.0391 9 20.5304 9 20C9 19.4696 8.78929 18.9609 8.41421 18.5858C8.03914 18.2107 7.53043 18 7 18Z"
+                                                    fill="#032E4E" />
+                                            </svg>
+                                        </span> Create Purchase Order</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td> C-0062 </td>
+                                    <td> C-0062 </td>
+                                    <td> abdul@pradeep.tv </td>
+                                    <td>+971 54791 3020 </td>
+                                    <td class="status__td">
+                                        <div class="status__  status__completed  ">
+                                            Active
+                                        </div>
+                                    </td>
+                                    <td> <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17 18C15.89 18 15 18.89 15 20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 15.5304 5.21071 16.0391 5.58579 16.4142C5.96086 16.7893 6.46957 17 7 17H19V15H7.42C7.3537 15 7.29011 14.9737 7.24322 14.9268C7.19634 14.8799 7.17 14.8163 7.17 14.75C7.17 14.7 7.18 14.66 7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.58 17.3 11.97L20.88 5.5C20.95 5.34 21 5.17 21 5C21 4.73478 20.8946 4.48043 20.7071 4.29289C20.5196 4.10536 20.2652 4 20 4H5.21L4.27 2M7 18C5.89 18 5 18.89 5 20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22C7.53043 22 8.03914 21.7893 8.41421 21.4142C8.78929 21.0391 9 20.5304 9 20C9 19.4696 8.78929 18.9609 8.41421 18.5858C8.03914 18.2107 7.53043 18 7 18Z"
+                                                    fill="#032E4E" />
+                                            </svg>
+                                        </span> Create Purchase Order</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td> C-0062 </td>
+                                    <td> C-0062 </td>
+                                    <td> abdul@pradeep.tv </td>
+                                    <td>+971 54791 3020 </td>
+                                    <td class="status__td">
+                                        <div class="status__   status__created  under-revies-status">
+                                            Under Review
+                                        </div>
+                                    </td>
+                                    <td> <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17 18C15.89 18 15 18.89 15 20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 15.5304 5.21071 16.0391 5.58579 16.4142C5.96086 16.7893 6.46957 17 7 17H19V15H7.42C7.3537 15 7.29011 14.9737 7.24322 14.9268C7.19634 14.8799 7.17 14.8163 7.17 14.75C7.17 14.7 7.18 14.66 7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.58 17.3 11.97L20.88 5.5C20.95 5.34 21 5.17 21 5C21 4.73478 20.8946 4.48043 20.7071 4.29289C20.5196 4.10536 20.2652 4 20 4H5.21L4.27 2M7 18C5.89 18 5 18.89 5 20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22C7.53043 22 8.03914 21.7893 8.41421 21.4142C8.78929 21.0391 9 20.5304 9 20C9 19.4696 8.78929 18.9609 8.41421 18.5858C8.03914 18.2107 7.53043 18 7 18Z"
+                                                    fill="#032E4E" />
+                                            </svg>
+                                        </span> Create Purchase Order</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td> C-0062 </td>
+                                    <td> C-0062 </td>
+                                    <td> abdul@pradeep.tv </td>
+                                    <td>+971 54791 3020 </td>
+                                    <td class="status__td">
+                                        <div class="status__ status__created under-revies-status">
+                                            Under Review
+                                        </div>
+                                    </td>
+                                    <td> <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17 18C15.89 18 15 18.89 15 20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 15.5304 5.21071 16.0391 5.58579 16.4142C5.96086 16.7893 6.46957 17 7 17H19V15H7.42C7.3537 15 7.29011 14.9737 7.24322 14.9268C7.19634 14.8799 7.17 14.8163 7.17 14.75C7.17 14.7 7.18 14.66 7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.58 17.3 11.97L20.88 5.5C20.95 5.34 21 5.17 21 5C21 4.73478 20.8946 4.48043 20.7071 4.29289C20.5196 4.10536 20.2652 4 20 4H5.21L4.27 2M7 18C5.89 18 5 18.89 5 20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22C7.53043 22 8.03914 21.7893 8.41421 21.4142C8.78929 21.0391 9 20.5304 9 20C9 19.4696 8.78929 18.9609 8.41421 18.5858C8.03914 18.2107 7.53043 18 7 18Z"
+                                                    fill="#032E4E" />
+                                            </svg>
+                                        </span> Create Purchase Order</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td> C-0062 </td>
+                                    <td> C-0062 </td>
+                                    <td> abdul@pradeep.tv </td>
+                                    <td>+971 54791 3020 </td>
+                                    <td class="status__td">
+                                        <div class="status__ status__created under-revies-status">
+                                            Under Review
+                                        </div>
+                                    </td>
+                                    <td> <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17 18C15.89 18 15 18.89 15 20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 15.5304 5.21071 16.0391 5.58579 16.4142C5.96086 16.7893 6.46957 17 7 17H19V15H7.42C7.3537 15 7.29011 14.9737 7.24322 14.9268C7.19634 14.8799 7.17 14.8163 7.17 14.75C7.17 14.7 7.18 14.66 7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.58 17.3 11.97L20.88 5.5C20.95 5.34 21 5.17 21 5C21 4.73478 20.8946 4.48043 20.7071 4.29289C20.5196 4.10536 20.2652 4 20 4H5.21L4.27 2M7 18C5.89 18 5 18.89 5 20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22C7.53043 22 8.03914 21.7893 8.41421 21.4142C8.78929 21.0391 9 20.5304 9 20C9 19.4696 8.78929 18.9609 8.41421 18.5858C8.03914 18.2107 7.53043 18 7 18Z"
+                                                    fill="#032E4E" />
+                                            </svg>
+                                        </span> Create Purchase Order</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td> C-0062 </td>
+                                    <td> C-0062 </td>
+                                    <td> abdul@pradeep.tv </td>
+                                    <td>+971 54791 3020 </td>
+                                    <td class="status__td">
+                                        <div class="status__ status__created under-revies-status">
+                                            Under Review
+                                        </div>
+                                    </td>
+                                    <td> <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17 18C15.89 18 15 18.89 15 20C15 20.5304 15.2107 21.0391 15.5858 21.4142C15.9609 21.7893 16.4696 22 17 22C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18ZM1 2V4H3L6.6 11.59L5.24 14.04C5.09 14.32 5 14.65 5 15C5 15.5304 5.21071 16.0391 5.58579 16.4142C5.96086 16.7893 6.46957 17 7 17H19V15H7.42C7.3537 15 7.29011 14.9737 7.24322 14.9268C7.19634 14.8799 7.17 14.8163 7.17 14.75C7.17 14.7 7.18 14.66 7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.58 17.3 11.97L20.88 5.5C20.95 5.34 21 5.17 21 5C21 4.73478 20.8946 4.48043 20.7071 4.29289C20.5196 4.10536 20.2652 4 20 4H5.21L4.27 2M7 18C5.89 18 5 18.89 5 20C5 20.5304 5.21071 21.0391 5.58579 21.4142C5.96086 21.7893 6.46957 22 7 22C7.53043 22 8.03914 21.7893 8.41421 21.4142C8.78929 21.0391 9 20.5304 9 20C9 19.4696 8.78929 18.9609 8.41421 18.5858C8.03914 18.2107 7.53043 18 7 18Z"
+                                                    fill="#032E4E" />
+                                            </svg>
+                                        </span> Create Purchase Order</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="purchase-order-footer">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="footer-first-img text-end">
+                                    <img src="assets/images/Clip path group.png" class="img-fldui" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-pagination">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="pagination-left">
+                                        <a href="#">Showing 1 to 10 of 100 Enteries</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="pagination-right">
+                                        <ul>
+                                            <li><a href="#"><button>previous</button></a></li>
+                                            <li><a href="#"><button>1</button></a></li>
+                                            <li><a href="#"><button>2</button></a></li>
+                                            <li><a href="#"><button>3</button></a></li>
+                                            <li><a href="#"><button>4</button></a></li>
+                                            <li><a href="#"><button>5</button></a></li>
+                                            <li><a href="#"><button>Next </button></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>

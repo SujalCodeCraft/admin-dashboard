@@ -1,0 +1,915 @@
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Host Grotesk", sans-serif;
+}
+
+.main-header .main-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header .main-navbar .nav-leftside img {
+  max-width: 175px;
+}
+.main-header .main-navbar .nav-rightside > ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 1.5rem;
+  margin-bottom: 0;
+}
+.main-header .main-navbar .nav-rightside > ul li > select {
+  border: none;
+}
+.main-header .main-navbar .nav-rightside > ul li > select :focus {
+  border: none;
+}
+
+.sub-header {
+  background-color: #032e4e;
+  padding: 0.8rem;
+}
+.sub-header .sub-tabs .sub-tabs-ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  gap: 2rem;
+}
+.sub-header .sub-tabs .sub-tabs-ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.hero-section {
+  background: linear-gradient(180deg, #FFFFFF 38.45%, #BDD2FF 100%);
+  padding: 2rem;
+}
+.hero-section .hero-section-main-row .profile-card-new {
+  padding-bottom: 4rem;
+}
+.hero-section .hero-section-main-row .hero-section-left-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(146, 136, 136, 0.4);
+  border-radius: 1rem;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-img-box {
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-img-box img {
+  max-width: 250px;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  position: absolute;
+  right: 3.4rem;
+  bottom: 46px;
+  max-width: 40px;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box svg {
+  position: absolute;
+  top: 14px;
+  right: 3px;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-name p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .notification-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(146, 136, 136, 0.4);
+  padding: 0.5rem 1rem;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .notification-box .notification-sub-box p {
+  margin-bottom: 0;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .notification-box .notification-sub-box .notification-count-circle {
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .notification-box .notification-sub-box .count-circle-1 {
+  background-color: #fbd8a2;
+  color: #fa781e;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .notification-box .notification-sub-box .count-circle-2 {
+  background-color: #dafada;
+  color: #419e4c;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .notification-box .notification-sub-box .count-circle-3 {
+  background-color: #fba2a2;
+  color: #ff1515;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .notification-box-1 {
+  border-top: 1px solid rgba(146, 136, 136, 0.4);
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box {
+  padding: 0.5rem;
+  text-align: center;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box a {
+  display: block;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box a button {
+  margin: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid rgba(146, 136, 136, 0.4);
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  color: rgba(146, 136, 136, 0.4);
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box > :last-child button {
+  padding: 5px 1rem;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box > :last-child button span {
+  padding: 0.5rem 0 !important;
+}
+.hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box > :last-child button svg {
+  border-left: 1px solid #d3cfcf;
+}
+.hero-section .hero-section-main-row .hero-section-right-box {
+  background-color: #ffffff;
+  border: 1px solid rgba(146, 136, 136, 0.4);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  padding-bottom: 0;
+  /* Tabs Styles */
+  /* Hide tab content by default */
+  /* Show active tab content */
+}
+.hero-section .hero-section-main-row .hero-section-right-box .from-box-header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 1px solid rgba(146, 136, 136, 0.4);
+}
+.hero-section .hero-section-main-row .hero-section-right-box .from-box-header p {
+  margin-bottom: 0;
+  height: 100%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .from-box-header > :first-child {
+  margin-right: 1.5rem;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .form-box-body {
+  padding: 1.5rem 0.5rem;
+  padding-bottom: 0;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .form-box-body .hero-section-inputs {
+  padding: 0.5rem 0;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .form-box-body .hero-section-inputs label {
+  display: block;
+  padding: 5px 0;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .form-box-body .hero-section-inputs input {
+  padding: 8px;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #d8d5d5;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .form-box-body .update-btn {
+  padding: 1rem 0;
+  padding-bottom: 0;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .form-box-body .update-btn button {
+  padding: 0.3rem 1.5rem;
+  background-color: #032e4e;
+  color: #ffffff;
+  border: none;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .form-box-footer {
+  padding-right: 1rem;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .form-box-footer .footer-img img {
+  max-width: 125px;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .tab {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .tab.active {
+  color: #032e4e;
+  border-bottom: 2px solid #032e4e;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .tab-content {
+  display: none;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .tab-content.active {
+  display: block;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row {
+  padding: 1rem;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card {
+  border: 1px solid #d3cfcf;
+  border-radius: 0.5rem;
+  margin: 0.8rem 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .deal-card-header h5 {
+  margin-bottom: 0;
+  color: #032e4e;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .deal-card-header p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #d3cfcf;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body {
+  padding: 1rem 0;
+  padding-bottom: 0;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .pipline-count-box {
+  cursor: pointer;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .pipline-count-box p {
+  height: 150px;
+  width: 150px;
+  border: 5px solid #d9d9d9;
+  border-radius: 50%;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: normal;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .pipline-count-box p span {
+  display: block;
+  font-size: 1rem;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.2rem;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul li .btns__ {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  transition: all 0s ease-in-out;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul li .btns__:hover {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul li .detail-btn {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  width: 50%;
+  text-align: center;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :first-child .btns__ {
+  background-color: #419e4c;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :first-child .detail-btn {
+  background-color: #dafada;
+  color: #419e4c;
+  border: none;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :nth-child(2) .btns__ {
+  background-color: #004cee;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :nth-child(2) .detail-btn {
+  background-color: #d4ebfd;
+  color: #004cee;
+  border: none;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul :nth-child(3) .btns__ {
+  background-color: #ff1515;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul :nth-child(3) .detail-btn {
+  background-color: #fba2a2;
+  color: #ff0000;
+  border: none;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :last-child {
+  padding: 0.5rem 0;
+}
+.hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :last-child button {
+  padding: 0.3rem 0.3rem;
+  font-size: 12px;
+  color: #032e4e;
+  border: 1px solid rgba(3, 46, 78, 0.6980392157);
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
+
+.purchase-order-sec {
+  background: linear-gradient(180deg, #FFFFFF 38.45%, #BDD2FF 100%);
+  padding: 2rem;
+}
+.purchase-order-sec .purchase-order-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.purchase-order-sec .purchase-order-header h5 {
+  color: #032e4e;
+  font-weight: 500;
+}
+.purchase-order-sec .purchase-order-header .purchase-order-sub-2 button {
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  background-color: #032e4e;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+}
+.purchase-order-sec .purchase-order-header .purchase-order-sub-2 button img {
+  max-width: 18px;
+  margin-right: 0.5rem;
+}
+.purchase-order-sec .purchase-order-table table {
+  color: #032e4e;
+  width: 100%;
+  overflow-x: scroll;
+}
+.purchase-order-sec .purchase-order-table table th {
+  min-width: 5rem;
+  max-width: 20%;
+}
+.purchase-order-sec .purchase-order-table table thead tr :last-child {
+  text-align: center;
+}
+.purchase-order-sec .purchase-order-table table tbody tr > :last-child {
+  text-align: center;
+}
+.purchase-order-sec .purchase-order-table table tbody tr .status__td {
+  text-align: center;
+  padding: 0.2rem;
+}
+.purchase-order-sec .purchase-order-table table tbody tr .status__td .status__ {
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+  color: #ff8918;
+  background-color: #fbd8a2;
+}
+.purchase-order-sec .purchase-order-table table tbody tr .status__td .status__completed {
+  background-color: #dafada;
+  color: #419e4c;
+}
+.purchase-order-sec .purchase-order-table table tbody tr .status__td .under-revies-status {
+  background-color: #fba2a2;
+  color: #ff1515;
+}
+.purchase-order-sec .purchase-order-table table th,
+.purchase-order-sec .purchase-order-table table td {
+  padding: 0.8rem;
+}
+.purchase-order-sec .purchase-order-footer .footer-pagination .pagination-left a {
+  text-decoration: none;
+  color: #032e4e;
+  font-weight: 500;
+}
+.purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right {
+  display: flex;
+  justify-content: end;
+}
+.purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  gap: 0.5rem;
+}
+.purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul li button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #032e4e;
+  background-color: #ffffff;
+  font-weight: 500;
+}
+.purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :nth-child(2) button {
+  background-color: #032e4e;
+  color: #ffffff;
+}
+.purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :first-child button,
+.purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :last-child button {
+  width: 100%;
+  background-color: #ffffff;
+  color: #032e4e;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  border: none;
+}
+
+.client-add-modal .client-add-modal-1 {
+  background: linear-gradient(180deg, #ffffff 0%, #bdd2ff 100%);
+}
+.client-add-modal .client-add-modal-body {
+  padding: 1rem;
+}
+.client-add-modal .client-add-modal-body label {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  font-weight: 500;
+  padding-left: 0;
+}
+.client-add-modal .client-add-modal-body input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #D8D5D5;
+}
+.client-add-modal .modal-footer button {
+  background-color: #032e4e;
+  color: #ffffff;
+  padding: 0.3rem 2rem;
+}
+
+@media only screen and (max-width: 320px) {
+  .main-header .main-navbar {
+    padding: 0.5rem 0;
+  }
+  .main-header .main-navbar .nav-rightside > ul {
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .main-header .main-navbar .nav-leftside img {
+    max-width: 150px;
+  }
+  .hero-section {
+    padding: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box {
+    padding: 0.5rem 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box img {
+    max-width: 200px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box {
+    right: 2.4rem;
+    bottom: 32px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box img {
+    max-width: 40px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box svg {
+    top: 9px;
+    right: 8px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-body {
+    padding: 0.5rem 0.5rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-body .hero-section-inputs {
+    padding: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row {
+    padding: 0.5rem;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .main-header .main-navbar {
+    padding: 0.5rem 0;
+  }
+  .main-header .main-navbar .nav-rightside > ul {
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .main-header .main-navbar .nav-leftside img {
+    max-width: 150px;
+  }
+  .hero-section {
+    padding: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box {
+    padding: 0.5rem 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box img {
+    max-width: 200px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box {
+    right: 2.4rem;
+    bottom: 32px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box img {
+    max-width: 40px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box svg {
+    top: 9px;
+    right: 8px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-body {
+    padding: 0.5rem 0.5rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-body .hero-section-inputs {
+    padding: 0;
+  }
+  .pipline-count-box {
+    display: flex;
+    justify-content: center;
+  }
+  .purchase-order-sec {
+    padding: 0.2rem;
+  }
+  .purchase-order-sec .purchase-order-table {
+    overflow-x: scroll;
+  }
+  .purchase-order-sec .purchase-order-table table {
+    overflow: scroll;
+    font-size: 14px;
+  }
+  .purchase-order-sec .purchase-order-table table thead tr th {
+    padding: 0.5rem 0rem;
+    min-width: 6rem;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    text-align: center;
+  }
+  .purchase-order-sec .purchase-order-table table thead tr > :first-child {
+    min-width: 2rem;
+  }
+  .purchase-order-sec .purchase-order-table table tbody td {
+    text-align: center;
+    padding: 0.2rem;
+  }
+  .purchase-order-sec .purchase-order-table table tbody tr > :nth-child(5),
+  .purchase-order-sec .purchase-order-table table tbody tr :nth-child(6),
+  .purchase-order-sec .purchase-order-table table tbody tr > :last-child {
+    min-width: 10rem;
+  }
+  .purchase-order-sec .footer-pagination {
+    padding: 0.5rem 0;
+    font-size: 14px;
+  }
+  .purchase-order-sec .footer-pagination .pagination-left {
+    padding: 0.5rem 0;
+  }
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :first-child button,
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :last-child button {
+    padding: 0.2rem 0.5rem;
+  }
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul li button {
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
+  }
+  .footer-first-img img {
+    max-width: 120px;
+  }
+  .purchase-order-sec .purchase-order-header .purchase-order-sub-2 button {
+    font-size: 11px;
+  }
+  .purchase-order-sec .purchase-order-header h5 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box {
+    right: 4rem;
+    bottom: 32px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box {
+    right: 5.6rem;
+    bottom: 32px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .main-header .main-navbar {
+    padding: 0.5rem 0;
+  }
+  .main-header .main-navbar .nav-rightside > ul {
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .main-header .main-navbar .nav-leftside img {
+    max-width: 150px;
+  }
+  .hero-section {
+    padding: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box {
+    padding: 0.5rem 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box img {
+    max-width: 175px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box {
+    right: 0.6rem;
+    bottom: 29px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box img {
+    max-width: 35px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box svg {
+    top: 7px;
+    right: 6px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-body {
+    padding: 0.5rem 0.5rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-body .hero-section-inputs {
+    padding: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box a button {
+    padding: 0.4rem;
+    font-size: 14px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box > :last-child button {
+    padding: 0.5rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box {
+    font-size: 14px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-footer .footer-img img {
+    max-width: 120px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card {
+    margin: 0.5rem;
+    padding-bottom: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .pipline-count-box p {
+    height: 85px;
+    width: 85px;
+    border: 3px solid #d9d9d9;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.2rem 0;
+    font-size: 8px;
+    text-align: center;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :last-child button {
+    padding: 0.2rem 0;
+    font-size: 10px;
+  }
+  .purchase-order-sec {
+    padding: 0.2rem;
+  }
+  .purchase-order-sec .purchase-order-table {
+    overflow-x: scroll;
+  }
+  .purchase-order-sec .purchase-order-table table {
+    overflow: scroll;
+    font-size: 14px;
+  }
+  .purchase-order-sec .purchase-order-table table thead tr th {
+    padding: 0.5rem 0rem;
+    min-width: 6rem;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    text-align: center;
+  }
+  .purchase-order-sec .purchase-order-table table thead tr > :first-child {
+    min-width: 2rem;
+  }
+  .purchase-order-sec .purchase-order-table table tbody td {
+    text-align: center;
+    padding: 0.2rem;
+  }
+  .purchase-order-sec .purchase-order-table table tbody tr > :nth-child(5),
+  .purchase-order-sec .purchase-order-table table tbody tr :nth-child(6),
+  .purchase-order-sec .purchase-order-table table tbody tr > :last-child {
+    min-width: 10rem;
+  }
+  .purchase-order-sec .footer-pagination {
+    padding: 0.5rem 0;
+    font-size: 14px;
+  }
+  .purchase-order-sec .footer-pagination .pagination-left {
+    padding: 0.5rem 0;
+  }
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :first-child button,
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :last-child button {
+    padding: 0.2rem 0.3rem;
+  }
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul li button {
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
+  }
+  .footer-first-img img {
+    max-width: 120px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .main-header .main-navbar {
+    padding: 0.5rem 0;
+  }
+  .main-header .main-navbar .nav-rightside > ul {
+    gap: 0.5rem;
+    padding-left: 0;
+  }
+  .main-header .main-navbar .nav-leftside img {
+    max-width: 150px;
+  }
+  .hero-section {
+    padding: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box {
+    padding: 0.5rem 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box img {
+    max-width: 175px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box {
+    right: 3.1rem;
+    bottom: 29px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box img {
+    max-width: 35px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box svg {
+    top: 7px;
+    right: 6px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-body {
+    padding: 0.5rem 0.5rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-body .hero-section-inputs {
+    padding: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box a button {
+    padding: 0.4rem;
+    font-size: 14px;
+  }
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-card-btns-box > :last-child button {
+    padding: 0.5rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box {
+    font-size: 14px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .form-box-footer .footer-img img {
+    max-width: 120px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card {
+    margin: 0.5rem;
+    padding-bottom: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .pipline-count-box p {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #d9d9d9;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.2rem 0;
+    font-size: 12px;
+    text-align: center;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :last-child button {
+    padding: 0.3rem;
+    font-size: 11px;
+  }
+  .pipline-count-box {
+    display: flex;
+    justify-content: center;
+  }
+  .purchase-order-sec {
+    padding: 0.2rem;
+  }
+  .purchase-order-sec .purchase-order-table {
+    overflow-x: scroll;
+  }
+  .purchase-order-sec .purchase-order-table table {
+    overflow: scroll;
+    font-size: 14px;
+  }
+  .purchase-order-sec .purchase-order-table table thead tr th {
+    padding: 0.5rem 0rem;
+    min-width: 6rem;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    text-align: center;
+  }
+  .purchase-order-sec .purchase-order-table table thead tr > :first-child {
+    min-width: 2rem;
+  }
+  .purchase-order-sec .purchase-order-table table tbody td {
+    text-align: center;
+    padding: 0.2rem;
+  }
+  .purchase-order-sec .purchase-order-table table tbody tr > :nth-child(5),
+  .purchase-order-sec .purchase-order-table table tbody tr :nth-child(6),
+  .purchase-order-sec .purchase-order-table table tbody tr > :last-child {
+    min-width: 10rem;
+  }
+  .purchase-order-sec .footer-pagination {
+    padding: 0.5rem 0;
+    font-size: 14px;
+  }
+  .purchase-order-sec .footer-pagination .pagination-left {
+    padding: 0.5rem 0;
+  }
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :first-child button,
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul > :last-child button {
+    padding: 0.2rem 0.3rem;
+  }
+  .purchase-order-sec .purchase-order-footer .footer-pagination .pagination-right ul li button {
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
+  }
+  .footer-first-img img {
+    max-width: 120px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .hero-section .hero-section-main-row .hero-section-left-card .profile-img-box .camera-img-box {
+    right: 1.1rem;
+    bottom: 44px;
+    max-width: 40px;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card {
+    margin: 0.5rem;
+    padding-bottom: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .pipline-count-box p {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #d9d9d9;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.2rem 0;
+    font-size: 12px;
+    text-align: center;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :last-child button {
+    padding: 0.3rem;
+    font-size: 11px;
+  }
+  .pipline-count-box {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card {
+    margin: 0.5rem;
+    padding-bottom: 0;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .pipline-count-box p {
+    height: 120px;
+    width: 120px;
+    border: 5px solid #d9d9d9;
+    padding: 1.2rem;
+    font-size: 2rem;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.2rem 0;
+    font-size: 12px;
+    text-align: center;
+  }
+  .hero-section .hero-section-main-row .hero-section-right-box .close-details-card-row .close-deal-card .close-deal-body .deals-deatails-btn ul > :last-child button {
+    padding: 0.3rem;
+    font-size: 11px;
+  }
+  .pipline-count-box {
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
